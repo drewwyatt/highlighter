@@ -5,10 +5,12 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1 className={styles.headline}>👋</h1>
-      <Search.Provider>
-        <Search.Field />
-        <Speakers />
-      </Search.Provider>
+      <section className={styles.center}>
+        <Search.Provider>
+          <Search.Field />
+          <Speakers />
+        </Search.Provider>
+      </section>
     </main>
   )
 }

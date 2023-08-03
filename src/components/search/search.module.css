@@ -1,0 +1,6 @@
+.searchField {
+  border-radius: var(--border-radius);
+  font-size: 1.25em;
+  padding: 10px;
+  width: 100%;
+}

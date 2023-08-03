@@ -2,7 +2,6 @@
   border: 1px solid var(--kiwi);
   border-radius: var(--border-radius);
   margin: 0 auto;
-  max-width: 600px;
   padding: 0;
   width: 100%;
 }
