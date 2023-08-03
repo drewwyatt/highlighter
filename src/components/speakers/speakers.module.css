@@ -1,0 +1,21 @@
+.list {
+  border: 1px solid var(--kiwi);
+  border-radius: var(--border-radius);
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0;
+  width: 100%;
+}
+
+.cell {
+  border-bottom: 1px solid var(--kiwi);
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.cell:last-child {
+  border: 0;
+}

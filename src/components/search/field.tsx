@@ -1,3 +1,4 @@
+'use client'
 import { ChangeEvent, FC, useCallback } from 'react'
 import { useSearch } from './context'
 
