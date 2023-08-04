@@ -46,3 +46,8 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.highlight {
+  background: var(--lime);
+  color: var(--darkGray);
+}
