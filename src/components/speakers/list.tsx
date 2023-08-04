@@ -7,7 +7,7 @@ import data from './data'
 import styles from './speakers.module.css'
 
 const useVM = () => {
-  const query = useSearchQuery()
+  const query = useSearchQuery().toLowerCase()
   return useMemo(
     () =>
       [
